@@ -9,7 +9,7 @@
 
     <EditText
         android:id="@+id/Et_Text"
-        android:layout_width="380dp"
+        android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:hint="아이디를 입력해주세요."/>
 
