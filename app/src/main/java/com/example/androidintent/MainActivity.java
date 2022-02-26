@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 str = Et_text.getText().toString(); // text를 가져오고 toString 으로변환
                 Intent intent = new Intent(MainActivity.this, SubActivity.class); // 메인에서 서브로
                 intent.putExtra("Str", str);
-                startActivity(intent); ///액티비티 이동
+                startActivity(intent); ///액티비티 이동.
 
             }
         });

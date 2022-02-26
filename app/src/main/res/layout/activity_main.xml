@@ -8,7 +8,7 @@
 
     <EditText
         android:id="@+id/Et_text"
-        android:layout_width="240dp"
+        android:layout_width="242dp"
         android:layout_height="wrap_content"/>
 
     <Button
