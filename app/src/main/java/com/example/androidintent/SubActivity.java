@@ -18,7 +18,7 @@ public class SubActivity extends AppCompatActivity {
 
         tv_sub = findViewById(R.id.tv_sub); //연결
         Intent intent = getIntent(); //날라오는 인탠트데이터값 받기
-        String str = intent.getStringExtra("Str"); //문자열 형태로 받음
+        String str = intent.getStringExtra("Str"); //문자열 형태로 받음.
         tv_sub.setText(str); //str 넣기
 
 
